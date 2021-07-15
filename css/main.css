@@ -193,7 +193,7 @@ body {
   transition: padding 0.2s ease-in-out;
 }
 body .main-inner {
-  opacity: 0.85;
+  background: rgba(255,255,255,0.88);
 }
 body .header-inner {
   background: rgba(255,255,255,0.9);

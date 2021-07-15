@@ -179,7 +179,11 @@ body {
   height: 100%;
 }
 body {
-  background: var(--body-bg-color);
+  background: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
   color: var(--text-color);
   font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 1em;
@@ -187,6 +191,15 @@ body {
   min-height: 100%;
   position: relative;
   transition: padding 0.2s ease-in-out;
+}
+body .main-inner {
+  opacity: 0.85;
+}
+body .header-inner {
+  background: rgba(255,255,255,0.9);
+}
+body .popup {
+  opacity: 0.9;
 }
 h1,
 h2,

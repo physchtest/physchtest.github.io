@@ -193,13 +193,13 @@ body {
   transition: padding 0.2s ease-in-out;
 }
 body .main-inner {
-  background: rgba(255,255,255,0.88);
+  background: rgba(255,255,255,0.94);
 }
 body .header-inner {
   background: rgba(255,255,255,0.9);
 }
 body .popup {
-  opacity: 0.9;
+  opacity: 0.98;
 }
 h1,
 h2,
@@ -1055,8 +1055,10 @@ pre code {
 }
 .pdfobject-container iframe,
 .pdfobject-container embed {
-  height: 500px;
+  position: relative;
+  overflow: auto;
   width: 100%;
+  height: 500px;
 }
 .pagination .prev,
 .pagination .next,
